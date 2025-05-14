@@ -43,7 +43,7 @@ void heapsort(int a[], int n) {
         temp = a[1];
         a[1] = a[i];
         a[i] = temp;
-        adjust(a, i - 1); // i-1 because the heap size is reduced by one each time
+        adjust(a, i - 1); 
     }
 }
 
